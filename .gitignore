@@ -5,3 +5,9 @@
 # IDE configuration file
 .fleet/
 .idea/
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
