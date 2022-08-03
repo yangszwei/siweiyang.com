@@ -2,12 +2,14 @@
 .DS_Store
 ._*
 
-# IDE configuration file
+# Editor configuration file
 .fleet/
 .idea/
+idea.config.js
 
 # Node.js dependencies
 node_modules/
 
 # Build output
-dist/
+.svelte-kit/
+build/

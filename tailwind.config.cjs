@@ -1,11 +1,8 @@
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{css,js}",
-  ],
-  theme: {
-    fontFamily: {
-      'display': ["'Noto Sans TC'", "sans-serif"],
-    },
-  },
+	content: ['./src/**/*.{svelte,html,css,js}'],
+	theme: {
+		fontFamily: {
+			sans: ["'Noto Sans TC'", 'sans-serif'],
+		},
+	},
 };
