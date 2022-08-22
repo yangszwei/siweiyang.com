@@ -11,6 +11,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>楊斯惟 Si-Wei Yang</title>
+</svelte:head>
+
 <header class="my-8">
 	<h1 class="my-4 text-5xl">Hi, 我是楊斯惟</h1>
 	<p class="text-lg text-gray-500">Hi, I'm Si-Wei Yang</p>
