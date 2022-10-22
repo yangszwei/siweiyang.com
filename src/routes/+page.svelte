@@ -1,13 +1,18 @@
 <script>
+	import EmailIcon from '@iconify-icons/mdi/email';
+	import FacebookIcon from '@iconify-icons/mdi/facebook';
+	import GithubIcon from '@iconify-icons/mdi/github';
 	import Icon from '@iconify/svelte';
+	import TelegramIcon from '@iconify-icons/mdi/telegram';
+	import TwitterIcon from '@iconify-icons/mdi/twitter';
 
 	/** The social links. */
 	const social = [
-		{ color: '#4267b2', icon: 'mdi:facebook', href: 'https://facebook.com/yangszwei' },
-		{ color: '#1da1f2', icon: 'mdi:twitter', href: 'https://twitter.com/yangszwei' },
-		{ color: '#333', icon: 'mdi:github', href: 'https://github.com/yangszwei' },
-		{ color: '#08C', icon: 'mdi:telegram', href: 'https://t.me/yangszwei' },
-		{ color: '#222', icon: 'mdi:email', href: 'mailto:yangszwei@outlook.com' },
+		{ color: '#4267b2', icon: FacebookIcon, href: 'https://facebook.com/yangszwei' },
+		{ color: '#1da1f2', icon: TwitterIcon, href: 'https://twitter.com/yangszwei' },
+		{ color: '#333', icon: GithubIcon, href: 'https://github.com/yangszwei' },
+		{ color: '#08C', icon: TelegramIcon, href: 'https://t.me/yangszwei' },
+		{ color: '#222', icon: EmailIcon, href: 'mailto:yangszwei@outlook.com' },
 	];
 </script>
 
