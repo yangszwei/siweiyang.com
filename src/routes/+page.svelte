@@ -38,7 +38,7 @@
 </section>
 
 <style lang="postcss">
-	:global(body) {
+	:global(#app) {
 		@apply mt-16 max-w-4xl px-4 sm:mx-auto;
 	}
 </style>
