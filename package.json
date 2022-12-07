@@ -10,21 +10,21 @@
 		"format": "prettier --write --ignore-path .gitignore --plugin-search-dir=. . && eslint --fix --ignore-path .gitignore ."
 	},
 	"devDependencies": {
-		"@iconify-icons/mdi": "^1.2.32",
-		"@iconify/svelte": "^3.0.0",
-		"@sveltejs/adapter-node": "^1.0.0-next.99",
-		"@sveltejs/kit": "^1.0.0-next.522",
-		"autoprefixer": "^10.4.12",
-		"eslint": "^8.26.0",
+		"@iconify-icons/mdi": "^1.2.34",
+		"@iconify/svelte": "^3.0.1",
+		"@sveltejs/adapter-node": "^1.0.0-next.102",
+		"@sveltejs/kit": "^1.0.0-next.572",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.29.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"postcss": "^8.4.18",
+		"postcss": "^8.4.19",
 		"postcss-load-config": "^4.0.1",
-		"prettier": "^2.7.1",
-		"prettier-plugin-svelte": "^2.8.0",
-		"prettier-plugin-tailwindcss": "^0.1.13",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"prettier-plugin-tailwindcss": "^0.2.0",
 		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "^3.2.1",
-		"vite": "^3.1.8"
+		"tailwindcss": "^3.2.4",
+		"vite": "^3.2.5"
 	}
 }
