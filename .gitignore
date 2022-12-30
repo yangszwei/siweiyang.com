@@ -1,15 +1,16 @@
-# macOS system file
+# macOS system files
 .DS_Store
 ._*
 
-# Editor configuration file
-.fleet/
+# Editor files
 .idea/
-idea.config.js
 
-# Node.js dependencies
+# Node.js files
 node_modules/
 
 # Build output
-.svelte-kit/
-build/
+/.svelte-kit
+/build
+
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

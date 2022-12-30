@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		@apply h-full w-full;
-	}
-
 	body {
-		@apply min-h-full w-full bg-gray-50 font-sans text-neutral-800;
+		@apply bg-gray-50 font-sans text-neutral-800;
 	}
 }
