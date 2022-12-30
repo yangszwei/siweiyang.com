@@ -1,8 +1,12 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{svelte,html,css,js}'],
+	content: ['./src/**/*.{html,css,js,svelte}'],
 	theme: {
-		fontFamily: {
-			sans: ["'Noto Sans TC'", 'sans-serif'],
+		extend: {
+			fontFamily: {
+				sans: ["'Noto Sans TC'", 'sans-serif'],
+			},
 		},
 	},
+	plugins: [],
 };
