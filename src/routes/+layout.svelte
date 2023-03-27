@@ -13,3 +13,9 @@
 </svelte:head>
 
 <slot />
+
+<style lang="postcss">
+	:global(body) {
+		@apply bg-gray-50 font-sans text-gray-900;
+	}
+</style>
