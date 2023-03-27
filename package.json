@@ -9,7 +9,7 @@
 		"format": "prettier --ignore-path .gitignore --write ."
 	},
 	"devDependencies": {
-		"@iconify-icons/mdi": "^1.2.44",
+		"@iconify-icons/fa6-brands": "^1.2.9",
 		"@iconify/svelte": "^3.1.0",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.12.0",
