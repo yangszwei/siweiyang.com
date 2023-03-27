@@ -1,13 +1,13 @@
 <script>
-	import GithubIcon from '@iconify-icons/mdi/github';
 	import Icon from '@iconify/svelte';
-	import TelegramIcon from '@iconify-icons/mdi/telegram';
-	import TwitterIcon from '@iconify-icons/mdi/twitter';
+	import faGithub from '@iconify-icons/fa6-brands/github';
+	import faTelegram from '@iconify-icons/fa6-brands/telegram';
+	import faTwitter from '@iconify-icons/fa6-brands/twitter';
 
 	const links = [
-		{ color: '#1da1f2', icon: TwitterIcon, href: 'https://twitter.com/yangszwei' },
-		{ color: '#333', icon: GithubIcon, href: 'https://github.com/yangszwei' },
-		{ color: '#08C', icon: TelegramIcon, href: 'https://t.me/yangszwei' },
+		{ color: '#1da1f2', icon: faTwitter, href: 'https://twitter.com/yangszwei' },
+		{ color: '#333', icon: faGithub, href: 'https://github.com/yangszwei' },
+		{ color: '#08C', icon: faTelegram, href: 'https://t.me/yangszwei' },
 	];
 </script>
 
@@ -27,7 +27,7 @@
 					rel="noopener noreferrer"
 					class="block rounded-full p-1 text-2xl outline-0 transition-colors duration-100 hover:bg-neutral-300 active:bg-neutral-300"
 				>
-					<Icon {icon} style="color: {color};" />
+					<Icon {icon} class="h-6 w-6 p-0.5" style="color: {color};" />
 				</a>
 			</li>
 		{/each}
