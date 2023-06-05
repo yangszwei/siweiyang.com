@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import Navbar from './Navbar.svelte';
 </script>
 
 <svelte:head>
@@ -11,6 +12,8 @@
 		rel="stylesheet"
 	/>
 </svelte:head>
+
+<Navbar items={[{ name: 'Blog', href: 'https://blog.yangszwei.com/' }]} />
 
 <slot />
 
