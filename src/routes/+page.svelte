@@ -7,7 +7,7 @@
 	const links = [
 		{ color: '#1da1f2', icon: faTwitter, href: 'https://twitter.com/yangszwei' },
 		{ color: '#333', icon: faGithub, href: 'https://github.com/yangszwei' },
-		{ color: '#08C', icon: faTelegram, href: 'https://t.me/yangszwei' },
+		{ color: '#08C', icon: faTelegram, href: 'https://t.me/siweiyang' },
 	];
 </script>
 
