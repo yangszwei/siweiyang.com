@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.link {
+		@apply font-medium underline-offset-2 hover:underline lg:font-normal;
+	}
+}
+
+@layer utilities {
+	.page-section {
+		@apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+	}
+}

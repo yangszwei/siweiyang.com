@@ -1,24 +1,24 @@
-<script>
-	export let items = [];
+<script lang="ts">
+	import { base } from '$app/paths';
+	import { browser } from '$app/environment';
+
+	let elevate = false;
+
+	if (browser) {
+		window.addEventListener('scroll', () => (elevate = window.scrollY > 0));
+	}
 </script>
 
-<div class="z-10 flex select-none">
-	<div class="mx-auto box-content flex h-14 w-full max-w-4xl items-center px-4 md:px-12">
-		<a href="/" class="text-xl hover:text-gray-600">yangszwei.com</a>
-		<nav class="ml-auto">
-			<ul class="flex items-center space-x-6">
-				{#each items as { name, href } (href)}
-					<li>
-						<a {href} target="_self" class="item px-3 py-2 text-sm font-medium">{name}</a>
-					</li>
-				{/each}
-			</ul>
-		</nav>
-	</div>
-</div>
+<nav class:border-b={elevate} class="fixed inset-x-0 top-0">
+	<div class:!bg-transparent={!elevate} class="bg-gray-100/90 backdrop-blur">
+		<div class="page-section flex h-14 select-none items-center gap-3">
+			<!-- Page Title -->
+			<a class="mb-1 font-maru text-2xl font-medium" href="{base}/">siweiyang</a>
 
-<style lang="postcss">
-	.item {
-		@apply text-gray-900 underline-offset-2 hover:text-gray-600 hover:underline;
-	}
-</style>
+			<div class="grow"></div>
+
+			<!-- Page Links -->
+			<slot />
+		</div>
+	</div>
+</nav>
