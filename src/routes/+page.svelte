@@ -21,6 +21,9 @@
 		<a href="https://t.me/siweiyang" target="_blank" rel="noopener noreferrer">
 			<img src="{assets}/icons/telegram.svg" class="social-link" alt="Telegram" />
 		</a>
+		<a href="https://music.apple.com/profile/siweiyang" target="_blank" rel="noopener noreferrer">
+			<img src="{assets}/icons/apple-music.svg" class="social-link" alt="Apple Music" />
+		</a>
 	</div>
 </header>
 
