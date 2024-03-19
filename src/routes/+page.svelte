@@ -12,8 +12,8 @@
 		就讀於國北護資訊管理系，喜歡學習各種軟體相關的技術，擅長網頁開發。
 	</p>
 	<div class="flex items-center gap-6">
-		<a href="https://twitter.com/siweiyang35" target="_blank" rel="noopener noreferrer">
-			<img src="{assets}/icons/twitter.svg" class="social-link" alt="Twitter" />
+		<a href="https://www.linkedin.com/in/siweiyang02/" target="_blank" rel="noopener noreferrer">
+			<img src="{assets}/icons/linkedin.svg" class="social-link" alt="LinkedIn" />
 		</a>
 		<a href="https://github.com/yangszwei" target="_blank" rel="noopener noreferrer">
 			<img src="{assets}/icons/github.svg" class="social-link" alt="GitHub" />
