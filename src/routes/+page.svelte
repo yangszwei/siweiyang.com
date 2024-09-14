@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { assets } from '$app/paths';
-	import mainecoon from '$lib/images/mainecoon.jpg';
+	import courseQuery from '$lib/images/course-query.jpg?enhanced';
+	import hokagoWebTime from '$lib/images/hokago-web-time.jpg?enhanced';
+	import mainecoon from '$lib/images/mainecoon.jpg?enhanced';
 </script>
 
 <svelte:head>
@@ -58,9 +60,7 @@
 
 	<div class="grid grid-cols-1 py-12 sm:grid-cols-2 sm:gap-6">
 		<div class="py-3">
-			<picture>
-				<img src={mainecoon} class="rounded-md border" alt="" />
-			</picture>
+			<enhanced:img src={mainecoon} class="rounded-md border" alt="" />
 		</div>
 		<div class="py-3">
 			<h1 class="mb-4 text-xl font-medium">Mainecoon 數位病理影像檢視器</h1>
@@ -75,7 +75,7 @@
 
 	<div class="grid grid-cols-1 py-12 sm:grid-cols-2 sm:gap-6">
 		<div class="py-3">
-			<img src="{assets}/portfolio/course-query.jpg" class="rounded-md border" alt="" />
+			<enhanced:img src={courseQuery} class="rounded-md border" alt="" />
 		</div>
 		<div class="py-3">
 			<h1 class="mb-4 text-xl font-medium">北護大課程查詢系統</h1>
@@ -90,7 +90,7 @@
 
 	<div class="grid grid-cols-1 py-12 sm:grid-cols-2 sm:gap-6">
 		<div class="py-3">
-			<img src="{assets}/portfolio/hokago-web-time.jpg" class="rounded-md border" alt="" />
+			<enhanced:img src={hokagoWebTime} class="rounded-md border" alt="" />
 		</div>
 		<div class="py-3">
 			<h1 class="mb-4 text-xl font-medium">Ho-kago Web Time 網頁組教學系統</h1>
