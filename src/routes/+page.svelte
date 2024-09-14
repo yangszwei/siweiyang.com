@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { assets } from '$app/paths';
+	import mainecoon from '$lib/images/mainecoon.jpg';
 </script>
 
 <svelte:head>
@@ -57,13 +58,15 @@
 
 	<div class="grid grid-cols-1 py-12 sm:grid-cols-2 sm:gap-6">
 		<div class="py-3">
-			<img src="{assets}/portfolio/hokago-web-time.jpg" class="rounded-md border" alt="" />
+			<picture>
+				<img src={mainecoon} class="rounded-md border" alt="" />
+			</picture>
 		</div>
 		<div class="py-3">
-			<h1 class="mb-4 text-xl font-medium">Ho-kago Web Time 網頁組教學系統</h1>
+			<h1 class="mb-4 text-xl font-medium">Mainecoon 數位病理影像檢視器</h1>
 			<p>
-				使用 HTML/CSS/JS + Firebase
-				開發，用於社團內部教學，提供課程及作業管理等功能，並內建基礎的編輯器。
+				使用 Next.js 及 OpenLayers 開發的 WSI
+				數位病理影像檢視器，提供醫師及研究人員病理切片的檢視及標記等功能。
 			</p>
 		</div>
 	</div>
@@ -79,6 +82,21 @@
 			<p>
 				使用 SvelteKit 開發，使用 SQLite
 				資料庫暫存課程資料以解決學校系統緩慢問題，另提供課表預覽等功能。
+			</p>
+		</div>
+	</div>
+
+	<hr />
+
+	<div class="grid grid-cols-1 py-12 sm:grid-cols-2 sm:gap-6">
+		<div class="py-3">
+			<img src="{assets}/portfolio/hokago-web-time.jpg" class="rounded-md border" alt="" />
+		</div>
+		<div class="py-3">
+			<h1 class="mb-4 text-xl font-medium">Ho-kago Web Time 網頁組教學系統</h1>
+			<p>
+				使用 HTML/CSS/JS + Firebase
+				開發，用於社團內部教學，提供課程及作業管理等功能，並內建基礎的編輯器。
 			</p>
 		</div>
 	</div>
