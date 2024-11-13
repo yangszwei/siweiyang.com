@@ -39,6 +39,7 @@
 			<img src="{assets}/icons/html.svg" alt="HTML" />
 			<img src="{assets}/icons/css.svg" alt="CSS" />
 			<img src="{assets}/icons/nodejs.svg" alt="Node.js" />
+			<img src="{assets}/icons/react.svg" alt="React.js" />
 			<img src="{assets}/icons/go.svg" alt="Go" />
 			<img src="{assets}/icons/java.svg" alt="Java" />
 			<img src="{assets}/icons/php.svg" alt="PHP" />
